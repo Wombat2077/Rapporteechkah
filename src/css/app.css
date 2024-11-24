@@ -1,1 +1,14 @@
 /* app global css */
+:root {
+  --primary: #fef7ff;
+  --primary-dark: #620070;
+  --border: black;
+  --text: black;
+  --success: #199800;
+  --danger: #ab0202;
+  --background: white;
+}
+/* TODO: dark theme color palette  */
+:root.dark {
+  --primary: #00000;
+}
